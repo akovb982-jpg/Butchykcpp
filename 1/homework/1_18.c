@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+    char p[9] = { 'O', 'X', ' ',
+                  ' ', 'X', 'O',
+                  'X', 'O', ' ' };
+    printf("%c | %c | %c\n", p[0], p[1], p[2]);
+    printf("%c | %c | %c\n", p[3], p[4], p[5]);
+    printf("%c | %c | %c\n", p[6], p[7], p[8]);
+    return 0;
+}
